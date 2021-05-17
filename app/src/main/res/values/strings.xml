@@ -5,6 +5,18 @@
     <string name="dummy_username">Dummy Username</string>
     <string name="tab_title_post">Post</string>
     <string name="tab_title_achievement">Achievement</string>
+    <string name="tittle">Title</string>
+    <string name="item_image">Item Image</string>
+    <string name="context">Context</string>
+    <string name="favorite">favorite</string>
+    <string name="_1000">1000</string>
+    <string name="comment">comment</string>
+    <string name="category">category</string>
+    <string name="search">Search</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="post">Post</string>
+    <string name="achievement">Achievement</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
