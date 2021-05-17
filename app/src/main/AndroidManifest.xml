@@ -11,9 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ChildPedia">
-        <activity android:name=".ui.SplashScreenActivity"/>
+        <activity android:name=".ui.MainActivity"/>
         <activity android:name=".ui.create.CreateActivity"/>
-        <activity android:name=".ui.MainActivity">
+        <activity android:name=".ui.SplashScreenActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
