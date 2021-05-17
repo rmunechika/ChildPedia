@@ -1,13 +1,15 @@
-package com.nabela.childpedia
+package com.nabela.childpedia.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import androidx.fragment.app.Fragment
-import com.nabela.childpedia.create.CreateActivity
+import com.nabela.childpedia.R
+import com.nabela.childpedia.ui.create.CreateActivity
 import com.nabela.childpedia.databinding.ActivityMainBinding
-import com.nabela.childpedia.user.UserProfileFragment
+import com.nabela.childpedia.ui.home.HomeFragment
+import com.nabela.childpedia.ui.user.UserProfileFragment
 
 class MainActivity : AppCompatActivity() {
 

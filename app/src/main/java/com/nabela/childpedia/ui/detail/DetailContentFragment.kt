@@ -1,10 +1,11 @@
-package com.nabela.childpedia
+package com.nabela.childpedia.ui.detail
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.nabela.childpedia.R
 
 
 class DetailContentFragment : Fragment() {

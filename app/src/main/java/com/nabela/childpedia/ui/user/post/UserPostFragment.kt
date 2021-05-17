@@ -1,11 +1,10 @@
-package com.nabela.childpedia.user.post
+package com.nabela.childpedia.ui.user.post
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.nabela.childpedia.R
 import com.nabela.childpedia.databinding.FragmentUserPostBinding
 
 class UserPostFragment : Fragment() {

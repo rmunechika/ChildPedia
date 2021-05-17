@@ -1,4 +1,4 @@
-package com.nabela.childpedia.user
+package com.nabela.childpedia.ui.user
 
 import android.os.Bundle
 import android.view.LayoutInflater

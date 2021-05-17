@@ -1,4 +1,4 @@
-package com.nabela.childpedia.user.achievement
+package com.nabela.childpedia.ui.user.achievement
 
 import android.os.Bundle
 import android.view.LayoutInflater

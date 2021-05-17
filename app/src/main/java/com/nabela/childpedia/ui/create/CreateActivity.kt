@@ -1,4 +1,4 @@
-package com.nabela.childpedia.create
+package com.nabela.childpedia.ui.create
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
