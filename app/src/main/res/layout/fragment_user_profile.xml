@@ -11,18 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:minHeight="?actionBarSize"
-            android:padding="16dp"
-            android:text="@string/app_name"
-            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
-            android:textColor="@color/white"
-            android:textSize="30sp" />
-
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -73,13 +61,11 @@
             app:tabTextColor="@color/black">
 
             <com.google.android.material.tabs.TabItem
-                android:id="@+id/tab_post"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/tab_title_post"/>
 
             <com.google.android.material.tabs.TabItem
-                android:id="@+id/tab_achievement"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/tab_title_achievement"/>
@@ -93,7 +79,7 @@
         android:id="@+id/viewpager_user"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="300dp"/>
+        android:layout_marginTop="230dp"/>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
