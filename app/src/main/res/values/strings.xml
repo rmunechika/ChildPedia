@@ -17,4 +17,6 @@
     <string name="username">Username</string>
     <string name="title_post">Post</string>
     <string name="title_achievement">Achievement</string>
+    <string name="input_image">Input Image</string>
+    <string name="create">Create</string>
 </resources>
