@@ -5,10 +5,11 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 class AchievementEntity(
-    var id: String? = null,
-    var name: String? = null,
-    var description: String? = null,
-    var image: String? = null,
-    var updatedAt: String? = null,
-    var createdAt: String? = null
+    var id: Int,
+    var name: String,
+    var category: String,
+    var description: String?,
+    var image: String?,
+    var updatedAt: String?,
+    var createdAt: String?
 ):Parcelable
