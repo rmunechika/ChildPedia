@@ -1,4 +1,4 @@
-package com.nabela.childpedia.adapter
+package com.nabela.childpedia.ui.home
 
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
