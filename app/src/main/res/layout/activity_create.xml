@@ -6,6 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".ui.create.CreateActivity">
 
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/it_title">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="@string/flora" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fauna" />
+    </RadioGroup>
+
     <Button
         android:id="@+id/btn_input"
         android:layout_width="wrap_content"
@@ -23,23 +49,23 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:background="@drawable/border"
         android:ems="10"
         android:hint="@string/title"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
+        android:padding="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        android:background="@drawable/border"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_input"
-        android:padding="8dp"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/btn_input" />
 
     <EditText
         android:id="@+id/it_context"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="16dp"
+        android:background="@drawable/border"
         android:ems="10"
         android:gravity="top"
         android:hint="@string/context"
@@ -47,14 +73,12 @@
         android:inputType="textMultiLine"
         android:lines="6"
         android:maxLength="500"
+        android:padding="8dp"
         android:singleLine="false"
         app:layout_constraintBottom_toTopOf="@+id/btn_create"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/it_title"
-        android:background="@drawable/border"
-        android:padding="8dp"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <Button
         android:id="@+id/btn_create"

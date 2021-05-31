@@ -21,4 +21,7 @@
     <string name="create">Create</string>
     <string name="profil">Profil</string>
     <string name="home">Home</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="flora">Flora</string>
+    <string name="fauna">Fauna</string>
 </resources>
