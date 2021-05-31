@@ -4,9 +4,9 @@ import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
-class EncyclopediaEntity(
-    var title: String,
-    var category : String,
-    var description: String,
-    var image: String
+data class EncyclopediaEntity (
+    var image :String,
+    var title :String,
+    var category :String,
+    var description :String
 ) : Parcelable

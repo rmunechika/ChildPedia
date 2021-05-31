@@ -5,22 +5,33 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.nabela.childpedia.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 
-    private var _binding: FragmentHomeBinding?=null
-    private val binding get() = _binding!!
+    private lateinit var homeFragmentBinding: FragmentHomeBinding
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        _binding = FragmentHomeBinding.inflate(inflater,container,false)
-        val view = binding.root
-        return view
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+
+        homeFragmentBinding = FragmentHomeBinding.inflate(layoutInflater, container, false)
+        return homeFragmentBinding.root
     }
 
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
+        val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[HomeViewModel::class.java]
+        val encyclopedia = viewModel.getEncyclopedia()
+
+        val homeAdapter = HomeAdapter()
+        homeAdapter.setEncyclopedia(encyclopedia)
+
+        with(homeFragmentBinding.rvHome){
+            layoutManager = LinearLayoutManager(context)
+            setHasFixedSize(true)
+            adapter = homeAdapter
+        }
+    }
 
 }
