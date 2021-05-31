@@ -40,8 +40,10 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
+        android:background="@drawable/border"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_input"
+        android:padding="8dp"
         />
 
     <EditText
@@ -62,7 +64,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/it_title"
         android:background="@drawable/border"
-        android:padding="16dp"
+        android:padding="8dp"
         />
 
     <Button

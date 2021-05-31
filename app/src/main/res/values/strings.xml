@@ -19,4 +19,6 @@
     <string name="title_achievement">Achievement</string>
     <string name="input_image">Input Image</string>
     <string name="create">Create</string>
+    <string name="profil">Profil</string>
+    <string name="home">Home</string>
 </resources>

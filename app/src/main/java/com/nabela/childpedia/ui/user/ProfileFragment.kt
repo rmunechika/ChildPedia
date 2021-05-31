@@ -12,7 +12,7 @@ import com.nabela.childpedia.R
 import com.nabela.childpedia.ui.home.UserSectionPagerAdapter
 import com.nabela.childpedia.databinding.FragmentUserProfileBinding
 
-class UserProfileFragment : Fragment() {
+class ProfileFragment : Fragment() {
 
     private var _binding: FragmentUserProfileBinding? = null
     private val binding get() = _binding as FragmentUserProfileBinding

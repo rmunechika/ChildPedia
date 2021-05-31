@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.nabela.childpedia.databinding.FragmentUserAchievementBinding
 
-class UserAchievementFragment : Fragment() {
+class AchievementFragment : Fragment() {
 
     private var _binding: FragmentUserAchievementBinding? = null
     private val binding get() = _binding as FragmentUserAchievementBinding

@@ -9,14 +9,14 @@ import com.nabela.childpedia.R
 import com.nabela.childpedia.ui.create.CreateActivity
 import com.nabela.childpedia.databinding.ActivityMainBinding
 import com.nabela.childpedia.ui.home.HomeFragment
-import com.nabela.childpedia.ui.user.UserProfileFragment
+import com.nabela.childpedia.ui.user.ProfileFragment
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
     private val homeFragment = HomeFragment()
-    private val profilFragment = UserProfileFragment()
+    private val profilFragment = ProfileFragment()
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         val inflater = menuInflater
