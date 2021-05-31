@@ -17,7 +17,7 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/img"
+            android:id="@+id/img_home"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintDimensionRatio="H,1:1"
@@ -28,7 +28,7 @@
             tools:ignore="ContentDescription" />
 
         <TextView
-            android:id="@+id/tv_title"
+            android:id="@+id/tv_title_home"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
@@ -37,13 +37,13 @@
             android:maxLines="2"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toStartOf="@+id/tv_category"
+            app:layout_constraintEnd_toStartOf="@+id/tv_category_home"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/img"
+            app:layout_constraintTop_toBottomOf="@+id/img_home"
             tools:text="@string/title" />
 
         <TextView
-            android:id="@+id/tv_category"
+            android:id="@+id/tv_category_home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
@@ -51,12 +51,12 @@
             android:textColor="@color/navy_700"
             android:textSize="24sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/tv_title"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_title_home"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/tv_title" />
+            app:layout_constraintTop_toTopOf="@+id/tv_title_home" />
 
         <com.codesgood.views.JustifiedTextView
-            android:id="@+id/tv_Description"
+            android:id="@+id/tv_description_home"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
@@ -67,7 +67,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title_home"
             tools:text="description" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

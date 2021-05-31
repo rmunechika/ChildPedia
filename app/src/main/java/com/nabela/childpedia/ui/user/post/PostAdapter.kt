@@ -2,13 +2,9 @@ package com.nabela.childpedia.ui.user.post
 
 import android.content.Intent
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.bumptech.glide.load.resource.bitmap.CenterInside
-import com.bumptech.glide.load.resource.bitmap.RoundedCorners
-import com.nabela.childpedia.R
 import com.nabela.childpedia.data.entity.EncyclopediaEntity
 import com.nabela.childpedia.databinding.ItemRowUserPostBinding
 import com.nabela.childpedia.ui.detail.DetailActivity
@@ -29,26 +25,27 @@ class PostAdapter : RecyclerView.Adapter<PostAdapter.PostViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: PostViewHolder, position: Int) {
-        val film = listPost[position]
-        holder.bind(film)
+        val ency = listPost[position]
+        holder.bind(ency)
     }
 
     override fun getItemCount(): Int = listPost.size
 
     class PostViewHolder(private val binding: ItemRowUserPostBinding) : RecyclerView.ViewHolder(binding.root) {
-        fun bind(film: EncyclopediaEntity) {
+        fun bind(ency: EncyclopediaEntity) {
             with(binding) {
                 Glide.with(itemView.context)
-                    .load(film.image)
+                    .load(ency.image)
                     .centerCrop()
-                    .into(img)
-                tvTitle.text = film.title
-                tvDescription.text = film.description
+                    .into(imgPost)
+                tvTitlePost.text = ency.title
+                tvDescriptionPost.text = ency.description
                 itemView.setOnClickListener {
                     val intent = Intent(itemView.context, DetailActivity::class.java)
-                    intent.putExtra(DetailActivity.EXTRA_IMG,film.image)
-                    intent.putExtra(DetailActivity.EXTRA_TITLE,film.title)
-                    intent.putExtra(DetailActivity.EXTRA_DESCRIPTION,film.description)
+                    intent.putExtra(DetailActivity.EXTRA_IMG,ency.image)
+                    intent.putExtra(DetailActivity.EXTRA_TITLE,ency.title)
+                    intent.putExtra(DetailActivity.EXTRA_CATEGORY,ency.category)
+                    intent.putExtra(DetailActivity.EXTRA_DESCRIPTION,ency.description)
                     itemView.context.startActivity(intent)
                 }
             }

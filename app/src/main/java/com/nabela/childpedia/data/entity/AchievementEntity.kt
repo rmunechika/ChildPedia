@@ -8,5 +8,4 @@ class AchievementEntity(
     var image: String,
     var name: String,
     var description: String
-
 ):Parcelable

@@ -9,6 +9,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.nabela.childpedia.databinding.FragmentHomeBinding
 
+@Suppress("DEPRECATION")
 class HomeFragment : Fragment() {
 
     private lateinit var homeFragmentBinding: FragmentHomeBinding

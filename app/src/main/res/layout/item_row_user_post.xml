@@ -17,7 +17,7 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/img"
+            android:id="@+id/img_post"
             android:layout_width="100dp"
             android:layout_height="0dp"
             android:src="@color/navy_200"
@@ -28,7 +28,7 @@
             tools:ignore="ContentDescription" />
 
         <TextView
-            android:id="@+id/tv_title"
+            android:id="@+id/tv_title_post"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
@@ -38,12 +38,12 @@
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/img"
+            app:layout_constraintStart_toEndOf="@+id/img_post"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="@string/title" />
 
         <TextView
-            android:id="@+id/tv_Description"
+            android:id="@+id/tv_Description_post"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
@@ -52,8 +52,8 @@
             android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/img"
-            app:layout_constraintTop_toBottomOf="@+id/tv_title"
+            app:layout_constraintStart_toEndOf="@+id/img_post"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title_post"
             tools:text="description" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
