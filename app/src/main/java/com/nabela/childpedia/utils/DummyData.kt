@@ -1,5 +1,6 @@
 package com.nabela.childpedia.utils
 
+import com.nabela.childpedia.data.entity.AchievementEntity
 import com.nabela.childpedia.data.entity.EncyclopediaEntity
 
 object DummyData {
@@ -66,5 +67,34 @@ object DummyData {
             "Merupakan serangga yang dapat terbang dan memiliki penampilan yang menarik. Capung juga menjadi salah satu serangga terbang yang sangat sulit ditangkap karena memiliki penglihatan yang tajam dan juga sangat lincah. Capung sendiri juga memiliki berbagai jenis war diantaranya coklat, hijau, merah ataupun biru. Meski dengan tampilannya yang menarik, capung termasuk dalam kategori serangga yang ganas terhadap mangsanya yang memiliki lebih kecil dari dirinya."
         ))
         return encyclopedia
+    }
+    fun generateDummyAchievement(): List<AchievementEntity>{
+        val achievementEntity = ArrayList<AchievementEntity>()
+        achievementEntity.add(AchievementEntity(
+            "https://cdn.iconscout.com/icon/free/png-512/achievement-1589036-1347675.png",
+            "Community Maker",
+            "Membuat Post lebih dari 50"
+        ))
+        achievementEntity.add(AchievementEntity(
+            "https://cdn.iconscout.com/icon/free/png-512/achievement-1589036-1347675.png",
+            "Digital Writer",
+            "Menulis Lebih dari 500 Kata"
+        ))
+        achievementEntity.add(AchievementEntity(
+            "https://cdn.iconscout.com/icon/free/png-512/achievement-1589036-1347675.png",
+            "Loyal Player",
+            "menggunakan aplikasi lebih dari 1 tahun"
+        ))
+        achievementEntity.add(AchievementEntity(
+            "https://cdn.iconscout.com/icon/free/png-512/achievement-1589036-1347675.png",
+            "Animal Lover",
+            "Membuat post Fauna lebih dari 20"
+        ))
+        achievementEntity.add(AchievementEntity(
+            "https://cdn.iconscout.com/icon/free/png-512/achievement-1589036-1347675.png",
+            "Plant Lover",
+            "Membuat Post Flora lebih dari 20"
+        ))
+        return achievementEntity
     }
 }

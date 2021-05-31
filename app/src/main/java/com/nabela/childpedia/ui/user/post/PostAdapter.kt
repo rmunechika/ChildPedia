@@ -15,12 +15,12 @@ import com.nabela.childpedia.ui.detail.DetailActivity
 import java.util.ArrayList
 
 class PostAdapter : RecyclerView.Adapter<PostAdapter.PostViewHolder>() {
-    private var listFilm = ArrayList<EncyclopediaEntity>()
+    private var listPost = ArrayList<EncyclopediaEntity>()
 
     fun setEncyclopedia(encyclopedia: List<EncyclopediaEntity>?) {
         if (encyclopedia == null) return
-        this.listFilm.clear()
-        this.listFilm.addAll(encyclopedia)
+        this.listPost.clear()
+        this.listPost.addAll(encyclopedia)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostViewHolder {
@@ -29,11 +29,11 @@ class PostAdapter : RecyclerView.Adapter<PostAdapter.PostViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: PostViewHolder, position: Int) {
-        val film = listFilm[position]
+        val film = listPost[position]
         holder.bind(film)
     }
 
-    override fun getItemCount(): Int = listFilm.size
+    override fun getItemCount(): Int = listPost.size
 
     class PostViewHolder(private val binding: ItemRowUserPostBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(film: EncyclopediaEntity) {
