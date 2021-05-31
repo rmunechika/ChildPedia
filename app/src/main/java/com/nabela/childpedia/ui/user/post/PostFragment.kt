@@ -7,20 +7,21 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.nabela.childpedia.databinding.FragmentUserPostBinding
+import com.nabela.childpedia.databinding.FragmentPostBinding
 
 class PostFragment : Fragment() {
 
-    private lateinit var postFragmentBinding: FragmentUserPostBinding
+    private lateinit var postFragmentBinding: FragmentPostBinding
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
 
-        postFragmentBinding = FragmentUserPostBinding.inflate(layoutInflater, container, false)
+        postFragmentBinding = FragmentPostBinding.inflate(layoutInflater, container, false)
         return postFragmentBinding.root
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
         val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[PostViewModel::class.java]
         val encyclopedia = viewModel.getEncyclopedia()
 

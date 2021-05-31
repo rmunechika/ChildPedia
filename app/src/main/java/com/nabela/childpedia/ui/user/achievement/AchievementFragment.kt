@@ -5,18 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.nabela.childpedia.databinding.FragmentUserAchievementBinding
+import com.nabela.childpedia.databinding.FragmentAchievementBinding
 
 class AchievementFragment : Fragment() {
 
-    private var _binding: FragmentUserAchievementBinding? = null
-    private val binding get() = _binding as FragmentUserAchievementBinding
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        _binding = FragmentUserAchievementBinding.inflate(inflater, container, false)
-        return binding.root
-    }
 }

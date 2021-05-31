@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
+import androidx.core.graphics.toColor
 import androidx.fragment.app.Fragment
 import com.nabela.childpedia.R
 import com.nabela.childpedia.ui.create.CreateActivity
@@ -20,6 +21,11 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         val inflater = menuInflater
+        supportActionBar?.apply {
+            setIcon(R.drawable.ic_action_name_white)
+            setDisplayShowTitleEnabled(false)
+            setDisplayShowHomeEnabled(true)
+        }
         inflater.inflate(R.menu.option,menu)
      return true
     }
