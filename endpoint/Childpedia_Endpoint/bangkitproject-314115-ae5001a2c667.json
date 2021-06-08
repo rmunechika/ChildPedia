@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bangkitproject-314115",
+  "private_key_id": "ae5001a2c667e8e5159ad520c39ef35ff893d422",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCPvWnT6rKac6G1\nMD/2ebYg6NeYcQ4WEC2x+m7RNj0vzFxqaVlORJto5kIw8G9TR38k6/1Fy9/deTBj\nSyE3UDxRyXJiD3lNbuDtMy8QXMJVY2q52LZJ7eP2dr6ldjW6NYTHEqwh0xmciWx3\nTuqNcdsSCGspAj1GYb+8Sx97444crz7/W7zXnXG4F/6SsoUNo/iqFg2fDM0t93mv\npOva0GWM/bI0zaZ6L0/z2N+jTWC11/OA57+4D8S2KXyKQXamYzXUPQSWwR5WlXxl\naWiW6C3fSCOtRNXUsUMRvqh5FR5oJYSNtxXWND0a0pk/p9IFWUhdXsZCYCgCKEsq\nbmhga3ajAgMBAAECggEAGiNiErC7oL2FOusWvo3ccjiVN/nbC2UOwi4dp7q6vq3l\nYk5c+JAeSKGSiM64F8dJFiA50s7jmyUWCQBY/nN/PIoq3C0fLFcM3OVxWgLcLeXh\nuwDvCRuS2Dc4rOMFmyJvTjoVhiMapa4RxNJbcbQyF6HjRrZLCTjuQmHQzFkRdyKb\nL3WIh/wQonLBI4KNUXyp7qivU1no6xenhzLrykP2U4LD1P8NO4Idf+KMwt0J2gkH\n//kENkJWN+Oueov6Z3WS/raFm2e1U5CKqU9SWhSSEmCyxyzjyBHO7QPIlbMkeH2h\nDpUgtTLFxP5S5BsEYI94sSy6kd1+UEuPpK1K5oIDNQKBgQDKQd4oMiqEhP+L5YbA\nXUiLXFvNvMpDxJSe86S2ei3KpzHIQyY7fbw9tsm21P8edpQbdAQAwZgK4gj30eeD\n3emkHdqMiULLyEKKJvtCG8ezskpB5jkjSrclBAmQkbpZrP3VMuCtqApvyoIk0t9A\nzkO7TVROdRfomgnSFKrB8OVglQKBgQC17wVlAwHm0cc0c3VHsKXDhYAfS93Ddsyq\n1bm1Qr0qFHZLPJJO0r9UJGtfz1SRz6x0qxjSUm1Gnv7ySjVYhL7mcCmwEObzl+AK\nGgqzUsbE7khoL9vT8Vz73syR6o+j7Txhg4pC4dz3ES34MOV4Zya1fJ5OSa1rX0WE\nHEN+JDwUVwKBgQCIW9ADGY9AuMnw71Xh6wI1spbSJi3XcnkgkPLDc6vbrM0LTvo/\nsY1vrgRgl0lIqHlB6P2p5Ns0ux+AtKt5Y+tZEid+CCxYZzM1IQLUlxYUOGeH9kcf\nXAgNlKM+LIGOY+reCecgLOKca9NCMEkD0AwqAwCLxLXRw8hLMlPNXTPH4QKBgBjc\nBzWtOoZKpdih6iWYmp3j0QT1veCmjALP32dILkbgsuVG6osAuwoJS+60is69vMfY\nVTTv9GSQ9y8uOqnUwa0FKH0ZYiVo3EElG88zAVwJXzV1TKliMp1r7TIHBgeVNAnz\nCmJnMGVGIKzoKYLRPXXRCGSUJrEkPIB3yDUlSFxTAoGAbIBHB2Hi9iahwcVysAtE\nr5ETlp1d/pkPRW9jbMXk9NxFT/AlKHPNShQic26utpgXR2cbrSm0zl3Y2SSKvQNp\n8uL4d/dOp+qHCL82xuKwpK/5Gaw0NXvRXaxXuB1OiNzuig5ofc1eYufwNGpT6few\ncamM4EECX6m2DklN2G5aoBs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "childpedia-bigquery@bangkitproject-314115.iam.gserviceaccount.com",
+  "client_id": "107011417792337714715",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/childpedia-bigquery%40bangkitproject-314115.iam.gserviceaccount.com"
+}
