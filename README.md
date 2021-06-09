@@ -70,7 +70,7 @@ Make sure you already install tensorflow using
 * Creating an endpoint
   
   With service account created, I make an endpoint using Python language and flask. 
-  before that I need to do a few setup. With pip installed I need to download libraries below:
+  before that I need to do a few setup. With pip installed you need to install the libraries below:
   
   ```
    pip install --upgrade google-cloud-bigquery
