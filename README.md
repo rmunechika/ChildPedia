@@ -29,6 +29,24 @@ Childpedia using Machine Learning for categorizing the article. Also using pytho
   <img src="https://github.com/rmunechika/ChildPedia/blob/master/screenshot/Model.png">
 
 ## Cloud Computing Documentation
+  For this path, we use these references in our codes and methods related to this path:
+  
+  [1] (https://cloud.google.com/bigquery/docs/reference/libraries#installing_the_client_library)
+  
+  [2] (https://www.youtube.com/watch?v=HA6qCQnXk3I)
+  
+  [3] (https://github.com/googleapis/python-bigquery/blob/35627d145a41d57768f19d4392ef235928e00f72/samples/client_query_w_positional_params.py)
+  
+  [4] (https://rudderstack.com/blog/how-to-access-and-query-your-bigquery-data-using-python-and-r)
+  
+  [5] (https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask)
+  
+
+* Note
+
+  Inside the Childpedia_Endpoint folder, it contains the endpoint code using Python language and flask. The endpoint is used to connect the application to Bigquery and Cloud       Storage on GCP (Google Cloud Platform). Because some of our members are also busy with other works unrelated to Capstone Project, unfortunately we don't have time to properly   integrate the endpoint with the Childpedia App. As the result, the Childpedia app cannot connect to Bigquery and Cloud Storage. 
+
+
 * Making a Service Account
   
   First, I create a service account that can accessed both Bigquery and Cloud Storage later.
@@ -52,7 +70,7 @@ Childpedia using Machine Learning for categorizing the article. Also using pytho
   to set the credential with the key I downloaded.
   
    ```
-    $env:GOOGLE_APPLICATION_CREDENTIALS="projects\api\bangkitproject-314115-ae5001a2c667.json"
+    $env:GOOGLE_APPLICATION_CREDENTIALS="bangkitproject-314115-ae5001a2c667.json"
   ```
 
 ## Android Development Documentation
@@ -60,7 +78,7 @@ Childpedia using Machine Learning for categorizing the article. Also using pytho
 * Point 2
 * Point 3
 
-Inside the Childpedia_Endpoint folder, it contains the endpoint code using Python language and flask. The endpoint is used to connect the application to Bigquery and Cloud Storage on GCP (Google Cloud Platform). Because some of our members are also busy with other works unrelated to Capstone Project, unfortunately we don't have time to properly integrate the endpoint with the Childpedia App. As the result, the Childpedia app cannot connect to Bigquery and Cloud Storage. 
+
 
 **Screenshot:**<br><br>
 <img width="150" src="https://github.com/rmunechika/ChildPedia/blob/master/screenshot/Screenshot_2021-06-03-07-51-53-48.png">
