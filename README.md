@@ -11,6 +11,7 @@ This is an app that children can use to make their own encyclopedia and share it
 
 ## Cloud Computing Documentation
   For this path, we use these references in our codes and methods related to this path:
+  
   [1] (https://cloud.google.com/bigquery/docs/reference/libraries#installing_the_client_library)
   
   [2] (https://www.youtube.com/watch?v=HA6qCQnXk3I)
