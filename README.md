@@ -16,9 +16,11 @@ Make sure you already install tensorflow using
 * Prepare the Dataset
   
   First, pick the dataset and cek are all dataset successfully called
+
   <img src="https://github.com/rmunechika/ChildPedia/blob/master/screenshot/pick.png">
 
   Then, split the dataset into test, train, and validation data.
+  
   <img src="https://github.com/rmunechika/ChildPedia/blob/master/screenshot/split.png">
 
   After that save split dataset into new folder dataset
@@ -26,12 +28,15 @@ Make sure you already install tensorflow using
 * Create the model
 
   Create CNN Structure
+
   <img src="https://github.com/rmunechika/ChildPedia/blob/master/screenshot/cnn.png">
 
   Train Model
+
   <img src="https://github.com/rmunechika/ChildPedia/blob/master/screenshot/cnn.png">
 
   and then save the model
+
   <img src="https://github.com/rmunechika/ChildPedia/blob/master/screenshot/Model.png">
 
 ## Cloud Computing Documentation
