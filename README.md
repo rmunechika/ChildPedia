@@ -4,7 +4,7 @@ An Encyclopedia for Children
 This is an app that children can use to make their own encyclopedia and share it to the other user.
 
 
-# Cloud Computing Documentation
+## Cloud Computing Documentation
 * Making a Service Account
   
   First, I create a service account that can accessed both Bigquery and Cloud Storage later.
