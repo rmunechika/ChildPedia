@@ -16,7 +16,7 @@ from google.cloud import bigquery,storage
 # 1. pip install --upgrade google-cloud-bigquery
 # 2. pip install --upgrade google-cloud-storage
 # terminal:
-# 3. '$env:GOOGLE_APPLICATION_CREDENTIALS="projects\api\bangkitproject-314115-ae5001a2c667.json"'
+# 3. '$env:GOOGLE_APPLICATION_CREDENTIALS="bangkitproject-314115-ae5001a2c667.json"'
 ####################
 
 
