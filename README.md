@@ -7,6 +7,12 @@ This is an app that children can use to make their own encyclopedia and share it
 ## Machine Learning Documentation
 Childpedia using Machine Learning for categorizing the article. Also using python and tensorflow-keras for the machine learning. The dataset we use we get from kaggle and we preprocessing the dataset to create our own dataset. Our project using Image Classification and CNN architecture, unfortunately because our knowlage and some problem in our team we can't finish the last step for deploying the machine learning to our app using TFLite.
 
+Make sure you already install tensorflow using
+
+  ```
+   pip install tensorflow
+  ```
+
 * Prepare the Dataset
   
   First, pick the dataset and cek are all dataset successfully called
