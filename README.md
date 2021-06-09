@@ -86,7 +86,7 @@ Make sure you already install tensorflow using
 
 ## Android Development Documentation
 * Creating Interface using adobe XD
-
+```
 -Sign Up
 -Login
 -Home
@@ -94,9 +94,9 @@ Make sure you already install tensorflow using
 -Detail Post
 -Create Post
 -etc.
-
+```
 * Preparing Icon in Android Studio
-
+```
 -ic_create
 -ic_person
 -ic_setting
@@ -107,9 +107,9 @@ Make sure you already install tensorflow using
 -ic_check
 -ic_home
 -etc.
-
+```
 * Preparing Activity Layout in Android Studio
-
+```
 -Activity_Home
 -Activity_Create
 -Activity_Main
@@ -117,59 +117,59 @@ Make sure you already install tensorflow using
 -Activity_Create
 -Activity_Splash_Screen
 etc.
-
+```
 * Preparing Fragment Layout in Android Studio
-
+```
 -Fragment_home
 -Fragment_post
 -Fragment_achievement
 -Fragment_profile
-
+```
 * Preparing Fragment Layout in Android Studio
-
+```
 -item_home
 -item_post
 -item_achievement
-
+```
 * Preparing Menu in Android Studio
-
+```
 -bottom_navigation
 -option
-
+```
 * Creating ViewModel in Android Studio
-
+```
 -DetailViewModel
 -HomeViewModel
 -PostViewModel
 -AchievementViewModel
-
+```
 * Creating adapter in Android Studio
-
+```
 -ProfileAdapter
 -HomeAdapter
 -PostAdapter
 -AchievementAdapter
-
+```
 * Creating SplashScreen in Android Studio
-
+```
 Splash screens are used to display some animations (typically of the application logo) and illustrations while some data for the next screens are fetched.
-
+```
 * Creating Entity in Android Studio
-
+```
 -UserEntity
 -EncyclopediaEntity
 -AchievementEntity
-
+```
 * Creating dataDummy in Android Studio
-
+```
 -preparing the dataset
 -creating Arraylist of EncyclopediaEntity
-
+```
 * Preparing Retrofit in Android Studio
-
+```
 -creating API Object
 -creating Retrofit Object
-
+```
 **Screenshot:**<br><br>
 <img width="150" src="https://github.com/rmunechika/ChildPedia/blob/master/screenshot/Screenshot_2021-06-03-07-51-53-48.png">
 <img width="150" src="https://github.com/rmunechika/ChildPedia/blob/master/screenshot/Screenshot_2021-06-03-07-51-57-80.png">
