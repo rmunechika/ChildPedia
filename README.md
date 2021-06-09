@@ -46,7 +46,7 @@ This is an app that children can use to make their own encyclopedia and share it
   to set the credential with the key I downloaded.
   
    ```
-    $env:GOOGLE_APPLICATION_CREDENTIALS="projects\api\bangkitproject-314115-ae5001a2c667.json"
+    $env:GOOGLE_APPLICATION_CREDENTIALS="bangkitproject-314115-ae5001a2c667.json"
   ```
 
 ## Android Development Documentation
