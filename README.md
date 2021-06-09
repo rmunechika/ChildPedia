@@ -6,6 +6,7 @@ This is an app that children can use to make their own encyclopedia and share it
 
 # Cloud Computing Documentation
 * Making a Service Account
+  
   First, I create a service account that can accessed both Bigquery and Cloud Storage later.
   <img src="https://github.com/rmunechika/ChildPedia/blob/master/screenshot/service account.png">
   
@@ -14,6 +15,7 @@ This is an app that children can use to make their own encyclopedia and share it
   <img src="https://github.com/rmunechika/ChildPedia/blob/master/screenshot/key.png">
   
 * Creating an endpoint
+  
   With service account created, I make an endpoint using Python language and flask. 
   before that I need to do a few setup. With pip installed I need to download libraries below:
   
