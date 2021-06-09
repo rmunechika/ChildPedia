@@ -4,6 +4,11 @@ An Encyclopedia for Children
 This is an app that children can use to make their own encyclopedia and share it to the other user.
 
 
+## Machine Learning Documentation
+* Point 1
+* Point 2
+* Point 3
+
 ## Cloud Computing Documentation
 * Making a Service Account
   
@@ -30,7 +35,12 @@ This is an app that children can use to make their own encyclopedia and share it
    ```
     $env:GOOGLE_APPLICATION_CREDENTIALS="projects\api\bangkitproject-314115-ae5001a2c667.json"
   ```
-  
+
+## Android Development Documentation
+* Point 1
+* Point 2
+* Point 3
+
 Inside the Childpedia_Endpoint folder, it contains the endpoint code using Python language and flask. The endpoint is used to connect the application to Bigquery and Cloud Storage on GCP (Google Cloud Platform). Because some of our members are also busy with other works unrelated to Capstone Project, unfortunately we don't have time to properly integrate the endpoint with the Childpedia App. As the result, the Childpedia app cannot connect to Bigquery and Cloud Storage. 
 
 Childpedia using Machine Learning for categorizing the article. Also using python and tensorflow-keras for the machine learning. The dataset we use we get from kaggle and we preprocessing the dataset to create our own dataset. Our project using Image Classification and CNN architecture, unfortunately because our knowlage and some problem in our team we can't finish the last step for deploying the machine learning to our app using TFLite.
