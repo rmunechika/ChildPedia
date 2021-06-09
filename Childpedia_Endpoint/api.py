@@ -31,9 +31,9 @@ from google.cloud import bigquery,storage
 
 
 #get api
-#https://bigquery.googleapis.com/bigquery/v2/projects/{projectId}/datasets/{datasetId}/tables/{tableId}/data?access_token={access token lo td}#
+#https://bigquery.googleapis.com/bigquery/v2/projects/{projectId}/datasets/{datasetId}/tables/{tableId}/data?access_token={access token}#
 #example using ^
-#https://bigquery.googleapis.com/bigquery/v2/projects/bangkitproject-314115/datasets/Childpedia/tables/user/data?access_token={access token lo td}#
+#https://bigquery.googleapis.com/bigquery/v2/projects/bangkitproject-314115/datasets/Childpedia/tables/user/data?access_token={access token}#
 #project id above is our project id
 
 app = Flask(__name__)
@@ -99,7 +99,7 @@ def logout():
     return 'Logout'
 
 # A route to return all of the available encyclopedias
-@app.route('/api/v1/resources/encyclopedias', methods=['GET'])
+@app.route('/encyclopedias', methods=['GET'])
 def api_all():
     
     #simpan sql ke variabel
@@ -128,7 +128,7 @@ def api_all():
 
 
 #route to return a specific encyclopedia
-@app.route('/api/v1/resources/encyclopedias/<id>', methods=['GET'])
+@app.route('/encyclopedias/<id>', methods=['GET'])
 def api_encyclopedia_id(id):
     
     
@@ -176,7 +176,7 @@ def api_encyclopedia_id(id):
 
 
 #route to return a specific user
-@app.route('/api/v1/resources/users/<id>', methods=['GET'])
+@app.route('/users/<id>', methods=['GET'])
 
 def api_user_id(id):
      
