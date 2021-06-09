@@ -10,6 +10,13 @@ This is an app that children can use to make their own encyclopedia and share it
 * Point 3
 
 ## Cloud Computing Documentation
+  For this path, we use these references in our codes and methods related to this path:
+  [1] (https://cloud.google.com/bigquery/docs/reference/libraries#installing_the_client_library)
+  [2] (https://www.youtube.com/watch?v=HA6qCQnXk3I)
+  [3] (https://github.com/googleapis/python-bigquery/blob/35627d145a41d57768f19d4392ef235928e00f72/samples/client_query_w_positional_params.py)
+  [4] (https://rudderstack.com/blog/how-to-access-and-query-your-bigquery-data-using-python-and-r)
+  [5] (https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask)
+
 * Making a Service Account
   
   First, I create a service account that can accessed both Bigquery and Cloud Storage later.
